@@ -2,7 +2,7 @@
   "name": "react-router-dom",
   "version": "4.3.1",
   "description": "DOM bindings for React Router",
-  "repository": "ReactTraining/react-router",
+  "repository": "banada/react-router",
   "license": "MIT",
   "authors": [
     "Michael Jackson",
@@ -42,7 +42,7 @@
     "react": ">=15"
   },
   "dependencies": {
-    "history": "^4.7.2",
+    "history": "@banada/history",
     "invariant": "^2.2.4",
     "loose-envify": "^1.3.1",
     "prop-types": "^15.6.1",
