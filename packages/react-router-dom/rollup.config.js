@@ -20,11 +20,22 @@ const config = {
     }),
     resolve({
       customResolveOptions: {
-        moduleDirectory: ["../../node_modules", "../"]
+        moduleDirectory: ["./node_modules"]
       }
     }),
     commonjs({
-      include: /node_modules/
+      include: /node_modules/,
+      namedExports: {
+          'history': [
+                'createBrowserHistory',
+                'createHashHistory',
+                'createMemoryHistory',
+                'createLocation',
+                'locationsAreEqual',
+                'parsePath',
+                'createPath'
+          ]
+      }
     }),
     replace({
       "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV)
