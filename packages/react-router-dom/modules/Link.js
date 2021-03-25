@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import invariant from "invariant";
-import { createLocation } from "history";
+import { createLocation } from "@rentalhosting/history";
 
 const isModifiedEvent = event =>
   !!(event.metaKey || event.altKey || event.ctrlKey || event.shiftKey);

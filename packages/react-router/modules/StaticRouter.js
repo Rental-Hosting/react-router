@@ -2,7 +2,7 @@ import warning from "warning";
 import invariant from "invariant";
 import React from "react";
 import PropTypes from "prop-types";
-import { createLocation, createPath } from "history";
+import { createLocation, createPath } from "@rentalhosting/history";
 import Router from "./Router";
 
 const addLeadingSlash = path => {

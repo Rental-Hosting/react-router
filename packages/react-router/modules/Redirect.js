@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import warning from "warning";
 import invariant from "invariant";
-import { createLocation, locationsAreEqual } from "history";
+import { createLocation, locationsAreEqual } from "@rentalhosting/history";
 import generatePath from "./generatePath";
 
 /**
